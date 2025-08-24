@@ -16,7 +16,7 @@
   "omnibox": {
     "keyword": "api"
   },
-  "content_scripts:": [
+  "content_scripts": [
     {
       "matches": ["https://developer.chrome.com/docs/extensions/reference/*"],
       "js": ["content.js"]

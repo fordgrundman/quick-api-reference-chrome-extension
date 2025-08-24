@@ -5,7 +5,7 @@
   const nav = document.querySelector(".upper-tabs > nav");
 
   const tipWidget = createDomElement(
-    <button
+    `<button
       type="button"
       popovertarget="tip-popover"
       popovertargetaction="show"
@@ -14,7 +14,7 @@
       <span style="display: block; font: var(--devsite-link-font, 500 14px/20px var(--devsite-primary-font-family));">
         Tip
       </span>
-    </button>
+    </button>`
   );
 
   const popover = createDomElement(
